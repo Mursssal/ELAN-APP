@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ÉLAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>ÉLAN</h1>
+    <p class="tagline">Refined outfit rating</p>
+
+    <label class="upload-box">
+      <input type="file" id="imageInput" accept="image/*" onchange="previewImage()">
+      <span id="uploadText">Click to upload your outfit</span>
+    </label>
+
+    <img id="preview" alt="Outfit preview">
+
+    <button onclick="rateOutfit()">Rate My Look</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
