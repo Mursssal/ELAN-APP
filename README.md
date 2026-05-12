@@ -1,4 +1,4 @@
-ÉLAN
+
 
 ÉLAN is a chic, AI-inspired outfit rating web app that allows users to upload images of their outfits and receive a style score along with refined fashion feedback.
 
